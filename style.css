@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url("/img/the\ witcher\ hell.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+   
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    display: flex;
+    height: 17vh;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30 vh;
+}
+
+header img{
+    width: 3.9vh;
+}
+
+ul{
+    display:flex
+}
+
+main{
+    display: flex;
+    justify-content: center;
+   
+}
+
+li{
+    list-style: none;
+    padding: 15px;
+    color: gray;
+    
+}
+
+.universo{
+    color: white;
+    height: 8vh;
+
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70vh;
+    margin:auto
+}
+
+section{
+    background-image: url(/img/the\ witcher\ kavil2.png);
+    background-position: center bottom;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+    
+   
+}
+
+.logo{
+    width: auto;
+    margin-right: 15px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+display: flex;
+text-align: flex-start;
+color: white;
+
+}
